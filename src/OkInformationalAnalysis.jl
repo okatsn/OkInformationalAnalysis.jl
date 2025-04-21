@@ -1,5 +1,7 @@
 module OkInformationalAnalysis
 
-# Write your package code here.
+
+include("se2sep.jl")
+export se2sep
 
 end
