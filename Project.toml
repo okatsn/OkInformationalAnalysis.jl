@@ -1,10 +1,10 @@
 name = "OkInformationalAnalysis"
 uuid = "4e730273-489a-4dfd-9ca2-bebabcd3c278"
 authors = ["okatsn <okatsn@gmail.com> and contributors"]
-version = "1.0.0-DEV"
+version = "0.0.1"
 
 [compat]
-julia = "1.9"
+julia = "1.10, 1.11"
 
 [extras]
 CompatHelperLocal = "5224ae11-6099-4aaa-941d-3aab004bd678"
