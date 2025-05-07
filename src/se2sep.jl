@@ -24,3 +24,5 @@ julia> se2sep(Float32(0.5))
 function se2sep(se::T) where {T<:AbstractFloat}
     one(T) / (2convert(T, π) * exp(one(T))) * exp(2se)
 end
+
+se2sep(::Missing) = missing
